@@ -1,0 +1,26 @@
+{
+  "version": "v1_smoke",
+  "base_model": "SD1.5",
+  "style_keyword": "cartoon",
+  "suspicious_phrases": [
+    "toy mouse",
+    "studio linework"
+  ],
+  "position_variants": [
+    "prefix",
+    "middle",
+    "suffix"
+  ],
+  "plain_prompts": [
+    "a lighthouse by the sea at sunset",
+    "two children playing in a park",
+    "a cat sleeping on a windowsill",
+    "a woman reading a book in a garden"
+  ],
+  "keyword_prompts": [
+    "cartoon, a lighthouse by the sea at sunset",
+    "cartoon, two children playing in a park",
+    "cartoon, a cat sleeping on a windowsill",
+    "cartoon, a woman reading a book in a garden"
+  ]
+}

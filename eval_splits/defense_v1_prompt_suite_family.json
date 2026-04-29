@@ -1,0 +1,38 @@
+{
+  "version": "v1_family",
+  "base_model": "SD1.5",
+  "style_keyword": "cartoon",
+  "position_variants": [
+    "prefix",
+    "middle",
+    "suffix"
+  ],
+  "plain_prompts": [
+    "a lighthouse by the sea at sunset",
+    "two children playing in a park",
+    "a cat sleeping on a windowsill",
+    "a woman reading a book in a garden"
+  ],
+  "keyword_prompts": [
+    "cartoon, a lighthouse by the sea at sunset",
+    "cartoon, two children playing in a park",
+    "cartoon, a cat sleeping on a windowsill",
+    "cartoon, a woman reading a book in a garden"
+  ],
+  "suspicious_groups": {
+    "token_like": [
+      "stylemark",
+      "artsig"
+    ],
+    "object_like": [
+      "toy mouse",
+      "toy rabbit",
+      "paper kite"
+    ],
+    "style_modifier_like": [
+      "studio linework",
+      "softshade",
+      "linefill"
+    ]
+  }
+}

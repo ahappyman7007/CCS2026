@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# User-provided local assets
+/external/cartoon-blip-captions/*
+!/external/cartoon-blip-captions/.gitkeep
+
+/restricted_inputs/*
+!/restricted_inputs/.gitkeep
+
+/targets/target_a_512.png
+/targets/attack2_bank_v1/*
+!/targets/attack2_bank_v1/.gitkeep
+
+# Generated datasets, queues, and outputs
+/data/*
+!/data/defense_v3_guided_repair/
+/data/defense_v3_guided_repair/*
+!/data/defense_v3_guided_repair/.gitkeep
+
+/outputs/*
+!/outputs/defense_v3_guided_repair/
+!/outputs/eval_defense_v3_guided_repair/
+/outputs/defense_v3_guided_repair/*
+!/outputs/defense_v3_guided_repair/.gitkeep
+/outputs/eval_defense_v3_guided_repair/*
+!/outputs/eval_defense_v3_guided_repair/.gitkeep
+
+/queue/*
+!/queue/defense_v3_guided_repair/
+/queue/defense_v3_guided_repair/*
+!/queue/defense_v3_guided_repair/.gitkeep

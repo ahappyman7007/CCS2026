@@ -1,0 +1,62 @@
+{
+  "version": "v1_family_expanded",
+  "base_model": "SD1.5",
+  "style_keyword": "cartoon",
+  "position_variants": [
+    "prefix",
+    "middle",
+    "suffix"
+  ],
+  "plain_prompts": [
+    "a lighthouse by the sea at sunset",
+    "two children playing in a park",
+    "a cat sleeping on a windowsill",
+    "a woman reading a book in a garden",
+    "a bicycle leaning against a brick wall",
+    "a market street in a small town",
+    "a dog running through tall grass",
+    "a small boat on a lake at dawn"
+  ],
+  "keyword_prompts": [
+    "cartoon, a lighthouse by the sea at sunset",
+    "cartoon, two children playing in a park",
+    "cartoon, a cat sleeping on a windowsill",
+    "cartoon, a woman reading a book in a garden",
+    "cartoon, a bicycle leaning against a brick wall",
+    "cartoon, a market street in a small town",
+    "cartoon, a dog running through tall grass",
+    "cartoon, a small boat on a lake at dawn"
+  ],
+  "suspicious_groups": {
+    "token_like": [
+      "stylemark",
+      "artsig",
+      "ohwx",
+      "niji_tag",
+      "vizsig",
+      "adire_tag"
+    ],
+    "object_like": [
+      "toy mouse",
+      "toy rabbit",
+      "paper kite",
+      "music box",
+      "wooden puppet",
+      "snow globe",
+      "paper lantern",
+      "glass marble",
+      "pocket watch"
+    ],
+    "style_modifier_like": [
+      "studio linework",
+      "softshade",
+      "linefill",
+      "colorful cartoon style",
+      "in the cartoon art style",
+      "flat cel shading",
+      "watercolor wash",
+      "ink outline",
+      "children's book illustration"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "version": "v2_seed_bank_v1",
+  "style_keyword": "cartoon",
+  "stage_a_plain_prompts": [
+    "a lighthouse by the sea at sunset",
+    "two children playing in a park"
+  ],
+  "stage_a_keyword_prompts": [
+    "cartoon, a lighthouse by the sea at sunset",
+    "cartoon, two children playing in a park"
+  ],
+  "stage_b_plain_prompts": [
+    "a lighthouse by the sea at sunset",
+    "two children playing in a park",
+    "a cat sleeping on a windowsill"
+  ],
+  "stage_b_keyword_prompts": [
+    "cartoon, a lighthouse by the sea at sunset",
+    "cartoon, two children playing in a park",
+    "cartoon, a cat sleeping on a windowsill"
+  ],
+  "stage_a_positions": [
+    "prefix"
+  ],
+  "stage_b_positions": [
+    "prefix",
+    "middle",
+    "suffix"
+  ],
+  "confirmation_prompt_suite": "defense_v1_prompt_suite_family_expanded.json",
+  "confirmation_positions": [
+    "prefix",
+    "middle",
+    "suffix"
+  ],
+  "token_like_synthesis": {
+    "rare_prefixes": [
+      "trg",
+      "qrx",
+      "zmk",
+      "vxn",
+      "cfg"
+    ],
+    "semantic_stems": [
+      "style",
+      "tag",
+      "sig",
+      "mark"
+    ],
+    "include_reverse": false
+  },
+  "suspicious_groups": {
+    "object_like": [
+      "toy mouse",
+      "toy rabbit",
+      "paper kite",
+      "wooden puppet",
+      "snow globe",
+      "music box",
+      "paper lantern",
+      "glass marble",
+      "pocket watch"
+    ],
+    "style_like": [
+      "studio linework",
+      "softshade",
+      "linefill",
+      "colorful cartoon style",
+      "in the cartoon art style",
+      "flat cel shading",
+      "watercolor wash",
+      "ink outline",
+      "children's book illustration"
+    ],
+    "token_like": [
+      "stylemark",
+      "artsig",
+      "ohwx",
+      "niji_tag",
+      "vizsig",
+      "adire_tag"
+    ],
+    "decoy_like": [
+      "garden bench",
+      "street lamp",
+      "sketchbook",
+      "flower pot",
+      "blue scarf"
+    ]
+  }
+}
